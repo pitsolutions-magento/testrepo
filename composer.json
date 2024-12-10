@@ -1,0 +1,28 @@
+ {
+    "name": "test/Testrepo",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-library",
+    "description": "test repository",
+    "authors": [
+        {
+            "name": "Shanty Justus",
+            "email": "shanty@pitsolutions.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:pitsolutions-magento/testrepo.git"
+        }
+    ], 
+    "minimum-stability": "1.0.0",
+    "prefer-stable": true
+}
