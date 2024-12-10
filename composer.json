@@ -1,37 +1,22 @@
 {
-    "name": "customlibrary/testrepo",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
-    "type": "magento2-library",
-    "description": "test repository",
-    "authors": [
-        {
-            "name": "Shanty Justus",
-            "email": "shanty@pitsolutions.xom",
-            "homepage": "https://www.webshopextension.com/",
-            "role": "Developer"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:pitsolutions-magento/testrepo.git"
-        }
-    ],
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Test\\PaymentService\\": ""
-        }
-    },
-    "minimum-stability": "1.0.4",
-    "prefer-stable": true
+  "name": "customlibrary/testrepo",
+  "description": "Test repo",
+  "authors": [
+    {
+      "name": "John Doe",
+      "email": "shanty@pitsolutions.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "magento2-library",
+  "autoload": {
+    "psr-4": {
+      "Custom\\Repo\\": ""
+    }
+  },
+  "license": [
+    "afl-3.0"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
