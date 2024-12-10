@@ -1,4 +1,4 @@
- {
+{
     "name": "customlibrary/testrepo",
     "license": [
         "OSL-3.0",
@@ -9,7 +9,8 @@
     "authors": [
         {
             "name": "Shanty Justus",
-            "email": "shanty@pitsolutions.com",
+            "email": "shanty@pitsolutions.xom",
+            "homepage": "https://www.webshopextension.com/",
             "role": "Developer"
         }
     ],
@@ -22,7 +23,15 @@
             "type": "vcs",
             "url": "git@github.com:pitsolutions-magento/testrepo.git"
         }
-    ], 
-    "minimum-stability": "1.0.3",
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\PaymentService\\": ""
+        }
+    },
+    "minimum-stability": "1.0.4",
     "prefer-stable": true
 }
