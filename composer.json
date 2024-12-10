@@ -23,6 +23,6 @@
             "url": "git@github.com:pitsolutions-magento/testrepo.git"
         }
     ], 
-    "minimum-stability": "1.0.1",
+    "minimum-stability": "1.0.3",
     "prefer-stable": true
 }
