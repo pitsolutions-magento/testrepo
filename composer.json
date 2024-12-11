@@ -17,6 +17,6 @@
   "license": [
     "afl-3.0"
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
