@@ -1,26 +1,23 @@
 {
-  "name": "customlibrary/testrepo",
-  "description": "Test repo",
-  "authors": [
-    {
-      "name": "John Doe",
-      "email": "shanty@pitsolutions.com",
-      "role": "Developer"
-    }
-  ],
-  "type": "magento2-library",
-  "autoload": {
-    "psr-4": {
-      "Custom\\Repo\\": ""
-    }
-  },
-  "repositories": [
-        {"type": "composer", "url": "https://repo.packagist.com/testrepository/"},
-        {"packagist.org": false}
+    "name": "customlibrary/testrepo",
+    "description": "Test Repo",
+    "type": "library",
+    "license": "afl-3.0",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "shanty@pitsolutions.com"
+        }
     ],
-  "license": [
-    "afl-3.0"
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.com/testrepository/"
+        },
+        {
+            "packagist.org": false
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
