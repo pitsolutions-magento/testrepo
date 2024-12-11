@@ -14,12 +14,10 @@
       "Custom\\Repo\\": ""
     }
   },
-  {
-    "repositories": [
+  "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/testrepository/"},
         {"packagist.org": false}
-    ]
-  },
+    ],
   "license": [
     "afl-3.0"
   ],
