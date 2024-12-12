@@ -19,6 +19,7 @@
             "packagist.org": false
         }
     ],
-    "minimum-stability": "dev",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
     "require": {}
 }
